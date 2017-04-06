@@ -15,3 +15,8 @@ What is the benefit of having a copy of the last known state of the remote store
   You can also use git fetch and git status to see if the remote repository has changes ahead of your local copy. You can then work on merging those changes.
   You can also probably do work offline more effectively because you can always look at the state of the remote (as you last saw it) for reference.
   
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+    I'd use Google Docs because it allows real-time collaboration on the same document, which is nice.
+    It doesn't have the ability to go back in time, or have multiple versions, though, which is a really nice feature of Git.
+    It also requires an internet connection.
+    
