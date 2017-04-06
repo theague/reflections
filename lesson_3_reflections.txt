@@ -10,4 +10,8 @@ Describe the differences between forks, clones, and branches. When would you use
   A branch is a set of new commits off master that usually involve new features that you need to test.
   I would use a fork when I want to modify or try out someone else's code. I'd use a clone when I wanted to modify my own or someone else's code but I didn't plan on sharing it. I would use branch when I need to test a new feature without modifying master.
   
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  You can keep track of how many commits you are ahead of the remote with git status, thus knowing if you need to push your changes.
+  You can also use git fetch and git status to see if the remote repository has changes ahead of your local copy. You can then work on merging those changes.
+  You can also probably do work offline more effectively because you can always look at the state of the remote (as you last saw it) for reference.
   
