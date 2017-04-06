@@ -20,3 +20,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
     It doesn't have the ability to go back in time, or have multiple versions, though, which is a really nice feature of Git.
     It also requires an internet connection.
     
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+    Experimental features, offshoots (different modes of the program), and when collaborating with others or preserving the "production quality" version are all reasons you'd want to use a branch.
+    Changing directly in master is quicker and easier (doesn't require checkouts and merges), but branches offer more control.
